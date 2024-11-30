@@ -3,6 +3,7 @@ import connect from './configs/db.configs.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
+
 (async () => {
   try {
     await connect();

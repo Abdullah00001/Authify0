@@ -17,7 +17,7 @@ app.use(cookieParser());
 =================================*/
 import UserRoutes from './routes/user.routes.js';
 
-app.get('/api/v1', (req, res) => {
+app.get(`${baseUrl}`, (req, res) => {
   return res.send('Hello World');
 });
 app.use(`${baseUrl}/user`, UserRoutes);
