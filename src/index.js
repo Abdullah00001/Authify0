@@ -8,7 +8,7 @@ dotenv.config();
   try {
     await connect();
     console.log('Server Is Starting...');
-    app.listen(process.env.PORT || 8000, () => {
+    app.listen(process.env.PORT || 8021, () => {
       console.log(
         `Server Start Successful\nServer Running On Port ${
           process.env.PORT || 8000
