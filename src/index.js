@@ -11,7 +11,7 @@ dotenv.config();
     app.listen(process.env.PORT || 8021, () => {
       console.log(
         `Server Start Successful\nServer Running On Port ${
-          process.env.PORT || 8000
+          process.env.PORT || 8021
         }\n\n➜ VISIT: ${
           process.env.DEVELOPMENT_URL || process.env.PRODUCTION_URL
         }`,

@@ -1,5 +1,4 @@
 import transporter from '../configs/nodemailer.configs.js';
-import Handlebars from 'handlebars';
 import verificationEmailTemplate from './emailVerificationTemplate.js';
 import otpGenerator from 'otp-generator';
 import UserModel from '../models/user.models.js';
