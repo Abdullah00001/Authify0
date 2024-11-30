@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Postbook Its Will Be A Social Platform For Muslims.Its Connect People With Emotions.And This Is The Backbone Of The Software",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node -r dotenv/config src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "cors",
+    "bcrypt",
+    "restapi",
+    "api",
+    "backend",
+    "software",
+    "development"
+  ],
+  "author": "Abdullah Bin Omar Chowdhury",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "otp-generator": "^4.0.1"
+  }
+}

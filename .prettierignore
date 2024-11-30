@@ -1,0 +1,31 @@
+# Ignore build and production files
+node_modules
+build
+dist
+coverage
+
+# Ignore package lock and yarn lock files
+package-lock.json
+yarn.lock
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore public assets
+public/
+
+# Ignore minified files and bundles
+*.min.js
+*.bundle.js
+*.min.css
+
+# Ignore specific directories
+logs/
+tmp/
+.vscode/
+.idea/
